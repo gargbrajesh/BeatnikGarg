@@ -1,0 +1,44 @@
+.artWork_cover {
+    width: 98%;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10% !important;
+   
+}
+
+.heading {
+    font-family: 'Hill House';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 65px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+   
+    color: #212427;
+}
+
+.heading1 {
+    border-top: 3px solid #212427;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #212427;
+    opacity: 0.8;
+    width: 15%;
+}
+.para{
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+color: #000000;
+}

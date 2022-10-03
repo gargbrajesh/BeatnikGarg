@@ -1,0 +1,57 @@
+.typo_design {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 65px;
+    letter-spacing: 0.02em;
+    top: 174px;
+    color: #000000;
+   
+}
+.content_container{
+    padding: 20px;
+    width: 40%;
+   border: 2px solid black;
+   text-align: center;
+   align-items: center;
+}
+.btn_container{
+    display: flex;
+    border: 2px solid black;
+    width: 50%;
+    align-items: center;
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+    /* insert styles here */
+}
+ 
+/* (640x960) iPhone 4 & 4S */
+@media only screen and (min-device-width: 640px) and (max-device-width: 960px) {
+    /* insert styles here */
+}
+ 
+/* (720x1280) Galaxy Nexus, WXGA */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    /* .btnContainerBox{
+        margin: auto;
+        width: 96% !important;
+        height: auto !important;
+        margin-top: -1% !important;
+        margin-left: 25px !important;
+        margin-right: 25px !important;
+        padding: 20px !important;
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+    } */
+}
+ 
+/* (720x1280) Galaxy Nexus, Landscape */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) and (orientation: landscape) {
+    /* insert styles here */
+}
+ 
+/* (1024x768) iPad 1 & 2, XGA */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* insert styles here */
+}

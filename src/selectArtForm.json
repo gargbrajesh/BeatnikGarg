@@ -1,0 +1,340 @@
+[
+  {
+    "artID": "Dance",
+    "name": "Dance",
+    "specilizationList": [
+      {
+        "id": "Contemporary",
+        "name": "Contemporary",
+        "artID": "Dance"
+      },
+      {
+        "id": "Ballet",
+        "name": "Ballet",
+        "artID": "Dance"
+      },
+      {
+        "id": "Bharatanatyam",
+        "name": "Bharatanatyam",
+        "artID": "Dance"
+      },
+      {
+        "id": "Kathak",
+        "name": "Kathak",
+        "artID": "Dance"
+      },
+      {
+        "id": "Tap Dance",
+        "name": "Tap Dance",
+        "artID": "Dance"
+      },
+      {
+        "id": "Salsa",
+        "name": "Salsa",
+        "artID": "Dance"
+      },
+      {
+        "id": "Bollywood/Freestyle",
+        "name": "Bollywood/Freestyle",
+        "artID": "Dance"
+      },
+      {
+        "id": "Hip-hop",
+        "name": "Hip-hop",
+        "artID": "Dance"
+      },
+      {
+        "id": "Jazz",
+        "name": "Jazz",
+        "artID": "Dance"
+      },
+      {
+        "id": "Garba",
+        "name": "Garba",
+        "artID": "Dance"
+      },
+      {
+        "id": "Folk Dance",
+        "name": "Folk Dance",
+        "artID": "Dance"
+      },
+      {
+        "id": "Kathakali",
+        "name": "Kathakali",
+        "artID": "Dance"
+      },
+      {
+        "id": "Kuchipudi",
+        "name": "Kuchipudi",
+        "artID": "Dance"
+      },
+      {
+        "id": "Odissi",
+        "name": "Odissi",
+        "artID": "Dance"
+      },
+      {
+        "id": "Bhangra",
+        "name": "Bhangra",
+        "artID": "Dance"
+      },
+      {
+        "id": "Jive",
+        "name": "Jive",
+        "artID": "Dance"
+      },
+      {
+        "id": "Cha-cha",
+        "name": "Cha-cha",
+        "artID": "Dance"
+      },
+      {
+        "id": "Waltz",
+        "name": "Waltz",
+        "artID": "Dance"
+      },
+      {
+        "id": "Modern",
+        "name": "Modern",
+        "artID": "Dance"
+      },
+      {
+        "id": "Flamenco",
+        "name": "Flamenco",
+        "artID": "Dance"
+      },
+      {
+        "id": "Locking/Popping",
+        "name": "Locking/Popping",
+        "artID": "Dance"
+      },
+      {
+        "id": "Breakdance",
+        "name": "Breakdance",
+        "artID": "Dance"
+      }
+    ]
+  },
+  {
+    "artID": "Music",
+    "name": "Music",
+    "specilizationList": [
+      {
+        "id": "Vocals",
+        "name": "Vocals",
+        "artID": "Music"
+      },
+      {
+        "id": "Guitar",
+        "name": "Guitar",
+        "artID": "Music"
+      },
+      {
+        "id": "Piano",
+        "name": "Piano",
+        "artID": "Music"
+      },
+      {
+        "id": "Ukelele",
+        "name": "Ukelele",
+        "artID": "Music"
+      },
+      {
+        "id": "Drums",
+        "name": "Drums",
+        "artID": "Music"
+      },
+      {
+        "id": "Mouth Organ",
+        "name": "Mouth Organ",
+        "artID": "Music"
+      },
+      {
+        "id": "Sitar",
+        "name": "Sitar",
+        "artID": "Music"
+      },
+      {
+        "id": "Violin",
+        "name": "Violin",
+        "artID": "Music"
+      },
+      {
+        "id": "Harp",
+        "name": "Harp",
+        "artID": "Music"
+      },
+      {
+        "id": "DJ",
+        "name": "DJ",
+        "artID": "Music"
+      },
+      {
+        "id": "Veena",
+        "name": "Veena",
+        "artID": "Music"
+      },
+      {
+        "id": "Mandolin",
+        "name": "Mandolin",
+        "artID": "Music"
+      },
+      {
+        "id": "Saxophone",
+        "name": "Saxophone",
+        "artID": "Music"
+      },
+      {
+        "id": "Tabla",
+        "name": "Tabla",
+        "artID": "Music"
+      },
+      {
+        "id": "Mridangam",
+        "name": "Mridangam",
+        "artID": "Music"
+      },
+      {
+        "id": "Harmonium",
+        "name": "Harmonium",
+        "artID": "Music"
+      },
+      {
+        "id": "Dholak",
+        "name": "Dholak",
+        "artID": "Music"
+      },
+      {
+        "id": "Shehnai",
+        "name": "Shehnai",
+        "artID": "Music"
+      }
+    ]
+  },
+  {
+    "artID": "Theatre / Acting",
+    "name": "Theatre / Acting",
+    "specilizationList": [
+      {
+        "id": "Theatre",
+        "name": "Theatre",
+        "artID": "Theatre / Acting"
+      },
+      {
+        "id": "Standup Comedy",
+        "name": "Standup Comedy",
+        "artID": "Theatre / Acting"
+      },
+      {
+        "id": "Modelling",
+        "name": "Modelling",
+        "artID": "Theatre / Acting"
+      },
+      {
+        "id": "MC",
+        "name": "MC",
+        "artID": "Theatre / Acting"
+      },
+      {
+        "id": "TV / OTT",
+        "name": "TV / OTT",
+        "artID": "Theatre / Acting"
+      },
+
+      {
+        "id": "Movies",
+        "name": "Movies",
+        "artID": "Theatre / Acting"
+      }
+    ]
+  },
+  {
+    "artID": "Art Management",
+    "name": "Art Management",
+    "specilizationList": [
+      {
+        "id": "Curation",
+        "name": "Curation",
+        "artID": "Art Management"
+      },
+      {
+        "id": "Festival",
+        "name": "Festival",
+        "artID": "Art Management"
+      }
+    ]
+  },
+  {
+    "artID": "Tech",
+    "name": "Tech",
+    "specilizationList": [
+      {
+        "id": "Lights",
+        "name": "Lights",
+        "artID": "Tech"
+      },
+      {
+        "id": "Costume",
+        "name": "Costume",
+        "artID": "Tech"
+      },
+      {
+        "id": "Props",
+        "name": "Props",
+        "artID": "Tech"
+      },
+      {
+        "id": "Sound",
+        "name": "Sound",
+        "artID": "Tech"
+      },
+      {
+        "id": "Set Design",
+        "name": "Set Design",
+        "artID": "Tech"
+      },
+      {
+        "id": "Makeup",
+        "name": "Makeup",
+        "artID": "Tech"
+      },
+      {
+        "id": "Scriptwriting",
+        "name": "Scriptwriting",
+        "artID": "Tech"
+      },
+      {
+        "id": "Editing",
+        "name": "Editing",
+        "artID": "Tech"
+      },
+      {
+        "id": "Camera",
+        "name": "Camera",
+        "artID": "Tech"
+      }
+    ]
+  },
+  {
+    "artID": "Production (Backstage)",
+    "name": "Production",
+    "specilizationList": [
+      {
+        "id": "Production",
+        "name": "Production",
+        "artID": "Production"
+      }
+    ]
+  },
+  {
+    "artID": "Others",
+    "name": "Others",
+    "specilizationList": [
+      {
+        "id": "Others",
+        "name": "Others",
+        "artID": "Others"
+      }
+    ]
+  }
+]

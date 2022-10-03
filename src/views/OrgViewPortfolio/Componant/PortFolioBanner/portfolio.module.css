@@ -1,0 +1,69 @@
+.typo_design {
+    font-family: 'Nunito Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 36px !important;
+    align-items: center;
+    margin-top: 10px !important;
+    color: #000000;
+    text-align: center;
+   
+}
+.content_container{
+    padding: 20px;
+    width: 40%;
+   border: 2px solid black;
+   text-align: center;
+   align-items: center;
+}
+.btn_container{
+    display: flex;
+    border: 2px solid black;
+    width: 50%;
+    align-items: center;
+}
+.previous {
+  font-family: "Nunito Sans " !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  line-height: 20px !important;
+  align-items: left !important;
+  text-align: left !important;
+  letter-spacing: 0.02em !important;
+  margin-top: 15px;
+  color: #888888;
+}
+
+.nextArrow {
+  font-family: "Nunito Sans " !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  line-height: 20px !important;
+  align-items: right !important;
+  text-align: right !important;
+  letter-spacing: 0.02em !important;
+  margin-top: 15px;
+  color: #faa61a;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+
+  .typo_design {
+    font-weight: 500 !important;
+    font-size: 30px !important;
+    line-height: 40px !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+
+  .typo_design {
+    font-weight: 500 !important;
+    font-size: 30px !important;
+    line-height: 40px !important;
+    margin-bottom: 20px !important;
+  }
+}

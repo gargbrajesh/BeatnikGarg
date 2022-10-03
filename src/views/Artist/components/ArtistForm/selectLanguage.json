@@ -1,0 +1,82 @@
+[
+  {
+    "id": "Mandarin",
+    "name": "Mandarin"
+  },
+  {
+    "id": "Spanish",
+    "name": "Spanish"
+  },
+  {
+    "id": "English",
+    "name": "English"
+  },
+  {
+    "id": "Hindi",
+    "name": "Hindi"
+  },
+  {
+    "id": "Arabic",
+    "name": "Arabic"
+  },
+  {
+    "id": "Portuguese",
+    "name": "Portuguese"
+  },
+  {
+    "id": "Bengali",
+    "name": "Bengali"
+  },
+  {
+    "id": "Russian",
+    "name": "Russian"
+  },
+  {
+    "id": "Japanese",
+    "name": "Japanese"
+  },
+  {
+    "id": "Punjabi",
+    "name": "Punjabi"
+  },
+  {
+    "id": "German",
+    "name": "German"
+  },
+  {
+    "id": "Javanese",
+    "name": "Javanese"
+  },
+  {
+    "id": "Wu (inc. Shanghainese)",
+    "name": "Wu (inc. Shanghainese)"
+  },
+  {
+    "id": "Malay/Indonesian",
+    "name": "Malay/Indonesian"
+  },
+  {
+    "id": "Telugu",
+    "name": "Telugu"
+  },
+  {
+    "id": "Vietnamese",
+    "name": "Vietnamese"
+  },
+  {
+    "id": "Korean",
+    "name": "Korean"
+  },
+  {
+    "id": "Marathi",
+    "name": "Marathi"
+  },
+  {
+    "id": "Tamil",
+    "name": "Tamil"
+  },
+  {
+    "id": "Urdu",
+    "name": "Urdu"
+  }
+]

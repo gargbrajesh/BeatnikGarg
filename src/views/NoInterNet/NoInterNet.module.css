@@ -1,0 +1,148 @@
+.back_image {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border: 2px solid black;
+}
+
+.container {
+  width: 100%;
+  height: 115vh;
+  object-fit: cover;
+  cursor: pointer;
+  margin-top: -100px;
+}
+
+.inner_form_page {
+  margin-top: 115px !important;
+  height: 550px;
+  background: rgba(255, 255, 255, 0.8);
+
+  text-align: center !important;
+  align-items: center !important;
+  justify-content: center;
+  opacity: 0.8 !important;
+  display: flex;
+}
+
+.contentBox {
+  width: 50%;
+  height: auto;
+  opacity: 0.8 !important;
+}
+
+.typo1 {
+  margin-top: 5% !important;
+  font-family: 'Hill House ' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 90px !important;
+  align-items: center !important;
+  text-align: center !important;
+  color: #000000 !important;
+  line-height: 98px;
+  letter-spacing: 0.125em;
+}
+
+.typo2 {
+  margin-top: 5% !important;
+  font-family: 'Nunito Sans' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 24px !important;
+  line-height: 33px !important;
+  align-items: center !important;
+  padding: 20px;
+  text-align: center !important;
+  color: #000000 !important;
+}
+
+.btn {
+  margin-top: 5% !important;
+  padding: 5px 20px;
+  background: orange;
+  color: white;
+  border-radius: 13px;
+  border: none;
+  font-family: 'Nunito Sans' !important;
+  font-style: normal !important;
+
+  font-weight: 600 !important;
+  font-size: 22px !important;
+  line-height: 30px !important;
+  align-items: center !important;
+  text-align: center !important;
+  letter-spacing: 0.02em !important;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  .contentBox {
+    width: 100%;
+  }
+
+  .typo1 {
+    /* margin-top: 5% !important; */
+    font-weight: 500 !important;
+    font-size: 35px !important;
+    line-height: 50px;
+
+  }
+
+  .typo2 {
+
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 33px !important;
+    padding: 14px;
+
+  }
+
+  .inner_form_page {
+    height: 340px;
+  }
+
+  .container {
+    width: 100%;
+    height: 75vh;
+  }
+
+  .btn {
+    font-size: 18px !important;
+  }
+
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+  .contentBox {
+    width: 100%;
+  }
+
+  .typo1 {
+    font-weight: 500 !important;
+    font-size: 35px !important;
+    line-height: 50px;
+
+
+  }
+
+  .typo2 {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 33px !important;
+    padding: 10px 34px;
+
+  }
+
+  .inner_form_page {
+    height: 350px;
+  }
+
+  .container {
+    width: 100%;
+    height: 75vh;
+  }
+
+  .btn {
+    font-size: 20px !important;
+  }
+}

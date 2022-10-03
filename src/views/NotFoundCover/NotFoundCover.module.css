@@ -1,0 +1,174 @@
+.back_image {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border: 2px solid black;
+}
+
+.container {
+  width: 100%;
+  height: 115vh;
+  object-fit: cover;
+  cursor: pointer;
+  margin-top: -100px;
+  position: relative;
+}
+
+.container:before {
+  content: '';
+  position: absolute;
+  height: 116vh;
+  width: 100%;
+  background: #000000b5;
+  top: -7px;
+  left: 0
+}
+
+.inner_form_page {
+  margin-top: 150px !important;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 12%;
+  text-align: center !important;
+  align-items: center !important;
+  justify-content: center;
+  position: relative;
+  z-index: 999;
+  display: flex;
+  text-align: center;
+}
+
+.contentBox {
+  width: 50%;
+  height: auto;
+  opacity: 0.8 !important;
+}
+
+.typo1 {
+  margin-top: 5% !important;
+  font-family: 'Hill House ' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 200px !important;
+  align-items: center !important;
+  text-align: center !important;
+  color: #000000 !important;
+  line-height: 98px;
+  letter-spacing: 0.125em;
+}
+
+.typo2 {
+  margin-top: 5% !important;
+  font-family: 'Nunito Sans' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 24px !important;
+  line-height: 33px !important;
+  align-items: center !important;
+  padding: 20px;
+  text-align: center !important;
+  color: #000000 !important;
+}
+
+.btn {
+  margin-top: 5% !important;
+  padding: 8px 30px !important;
+  background: orange !important;
+  color: white !important;
+
+  border-radius: 40px !important;
+  border: none;
+  font-family: 'Nunito Sans' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+
+  align-items: center !important;
+  text-align: center !important;
+
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  .contentBox {
+    width: 100%;
+  }
+
+  .typo1 {
+    /* margin-top: 5% !important; */
+    font-weight: 500 !important;
+    font-size: 90px !important;
+    line-height: 50px;
+
+  }
+
+  .typo2 {
+
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 33px !important;
+    padding: 14px;
+
+  }
+
+  .inner_form_page {
+    margin-top: 300px !important;
+    height: 340px;
+    padding: 10%;
+  }
+
+  .container {
+    width: 100%;
+    height: 90vh;
+  }
+
+  .container::before {
+    width: 100%;
+    height: 102vh !important;
+  }
+
+  .btn {
+    font-size: 18px !important;
+  }
+
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+  .contentBox {
+    width: 100%;
+  }
+
+  .typo1 {
+    font-weight: 500 !important;
+    font-size: 90px !important;
+    line-height: 50px;
+
+
+  }
+
+  .typo2 {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 33px !important;
+    padding: 10px 34px;
+
+  }
+
+  .inner_form_page {
+    margin-top: 322px !important;
+    height: 350px;
+    padding: 10%;
+  }
+
+  .container {
+    width: 100%;
+    height: 90vh;
+  }
+
+  .container::before {
+    width: 100%;
+    height: 97vh !important;
+  }
+
+  .btn {
+    font-size: 18px !important;
+  }
+}

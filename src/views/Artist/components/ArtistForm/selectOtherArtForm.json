@@ -1,0 +1,22 @@
+[
+  {
+    "id": "Studio",
+    "name": "Studio"
+  },
+  {
+    "id": "Rehearsal Space",
+    "name": "Rehearsal Space"
+  },
+  {
+    "id": "Performing Venue",
+    "name": "Performing Venue"
+  },
+  {
+    "id": "Performance Company/Troupe/Band",
+    "name": "Performance Company/Troupe/Band"
+  },
+  {
+    "id": "   Art Management Organization",
+    "name": "   Art Management Organization"
+  }
+]

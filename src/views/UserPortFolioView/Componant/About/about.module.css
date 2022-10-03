@@ -1,0 +1,911 @@
+.back_image {
+  width: 100% !important;
+  height: auto;
+  overflow: hidden !important;
+  border: 2px solid black;
+}
+
+.container {
+  width: 100% !important;
+  height: 125vh;
+  object-fit: cover;
+  cursor: pointer;
+  margin-top: -100px;
+}
+
+.inner_form_page {
+  position: relative;
+  width: 60%;
+  border: 2px solid rgb(167, 15, 116);
+}
+
+.previous {
+  font-family: "Nunito Sans " !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  line-height: 20px !important;
+  align-items: left !important;
+  text-align: left !important;
+  letter-spacing: 0.02em !important;
+  margin-top: 15px;
+  color: #888888;
+}
+
+.nextArrow {
+  font-family: "Nunito Sans " !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  line-height: 20px !important;
+  align-items: right !important;
+  text-align: right !important;
+  letter-spacing: 0.02em !important;
+  margin-top: 15px;
+  color: #faa61a;
+}
+
+.aboutDetails {
+  position: absolute;
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  width: 595px !important;
+  left: -15%;
+  top: 25%;
+  border: 2px solid rgb(57, 9, 199);
+}
+
+/* Replaced by Ashok 
+.cardTitle {
+  font-family: "Hill House" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 36px !important;
+  line-height: 36px !important;
+  letter-spacing: 0.02em;
+
+  color: #212427;
+
+  transform: rotate(0.33deg);
+} */
+.cardTitle {
+  font-family: "Hill House" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 36px !important;
+  line-height: 36px !important;
+  letter-spacing: 0.02em;
+  margin-bottom: 34px;
+
+  color: #212427;
+
+  transform: rotate(0.33deg);
+}
+
+
+.cardText {
+  margin-top: 0 !important;
+  margin-bottom: 0rem !important;
+  overflow: scroll !important;
+  height: 18vh !important;
+}
+
+.readMore {
+  display: block;
+  color: #404240 !important;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.form_control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  outline: 0;
+  border: none;
+  border-bottom: 1px solid rgb(108, 105, 100);
+  border-radius: 0;
+}
+
+.form_control1 {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  outline: 0;
+  border: none;
+  border-bottom: 1px solid orange;
+  border-radius: 0;
+}
+
+.tagTextTitle {
+  font-family: "Nunito Sans" !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  margin-top: 5px !important;
+  align-items: center !important;
+  letter-spacing: 0.02em !important;
+  color: #000000;
+  text-align: left;
+}
+
+.btn {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: #090606 !important;
+  background: #e5e5e5 !important;
+  padding: 8px 25px !important;
+  text-align: center;
+  border: none;
+  margin-left: 5px !important;
+  display: inline-block;
+  border-radius: 20px !important;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.btnConnect {
+  display: inline-block !important;
+  width: 140px;
+  margin-top: 20px !important;
+  border-radius: 30px !important;
+  background: #faa61a !important;
+}
+
+@media screen and (min-width: 300px) and (max-width: 769px) {
+  .profileFullC {
+    display: block !important;
+    height: 1210px !important;
+  }
+
+  .innerContainer {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .imgOuterContainer {
+    max-width: 100% !important;
+    margin-left: 3% !important;
+  }
+
+  .imgContainer {
+    width: 100% !important;
+  }
+
+  .aboutContainer {
+    max-width: 100% !important;
+    margin-left: 3% !important;
+  }
+
+  .inner_form_page {
+    width: 100%;
+  }
+
+  .aboutDetails {
+    padding: 20px;
+    width: 100%;
+    left: 0;
+    top: 120px;
+    border: 2px solid rgb(57, 9, 199);
+  }
+
+  .AboutCard {
+    width: 100% ;
+    display: block;
+    margin-left: 20px;
+  }
+
+  .CardInnerContainer {
+    width: 100% !important;
+    left: 0 !important;
+  }
+
+  .ul {
+    display: block !important;
+    padding: 15px 18px !important;
+  }
+ 
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .back_image {
+    width: 100% !important;
+    height: auto;
+    overflow: hidden !important;
+    border: 2px solid black;
+  }
+
+  .container {
+    width: 100% !important;
+    height: 125vh;
+    object-fit: cover;
+    cursor: pointer;
+    margin-top: -100px;
+  }
+
+  .inner_form_page {
+    width: 100% !important;
+    /* height: auto; */
+    /* height: 95vh; */
+    margin: 15px 70px 100px 10px;
+    background: black;
+    border: 1px solid rgb(192, 192, 192);
+  }
+
+  .imageSize {
+    height: 95vh;
+  }
+
+  /*     */
+  /* =======================second====================== */
+
+  .imgContainer {
+    width: 100% !important;
+    height: 450px;
+    position: relative;
+  }
+
+  .previous {
+    font-family: "Nunito Sans " !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 20px !important;
+    align-items: left !important;
+    text-align: left !important;
+    letter-spacing: 0.02em !important;
+    margin-top: 15px;
+    color: #888888;
+  }
+
+  .nextArrow {
+    font-family: "Nunito Sans " !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 20px !important;
+    align-items: right !important;
+    text-align: right !important;
+    letter-spacing: 0.02em !important;
+    margin-top: 15px;
+    color: #faa61a;
+  }
+
+  .cardTitle {
+    font-family: "Hill House" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 36px !important;
+    line-height: 42px !important;
+    letter-spacing: 0.02em;
+
+    color: #212427;
+
+    transform: rotate(0.33deg);
+  }
+
+  .cardText {
+    margin-top: 0 !important;
+    margin-bottom: 0.5rem !important;
+    overflow: scroll !important;
+    height: 20vh !important;
+  }
+
+  .form_control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid rgb(108, 105, 100);
+    border-radius: 0;
+  }
+
+  .form_control1 {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid orange;
+    border-radius: 0;
+  }
+
+  .tagText {
+    font-family: "Nunito Sans" !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    margin-top: 22px !important;
+    align-items: center !important;
+    letter-spacing: 0.02em !important;
+
+    color: #000000;
+  }
+
+  .btn {
+    font-size: 10px !important;
+    color: #090606 !important;
+    background: #e5e5e5 !important;
+    padding: 8px !important;
+    text-align: center !important;
+    border: none;
+    display: inline-block !important;
+    margin-left: 5px !important;
+    border-radius: 15px !important;
+    text-transform: capitalize !important;
+    position: relative !important;
+    z-index: 1 !important;
+    overflow: hidden !important;
+    width: 100% !important;
+  }
+}
+
+.carouselImg {
+  position: relative;
+}
+
+.carouseleInnerimg {
+  width: 100%;
+  height: 575px;
+  display: block;
+}
+
+.carouseleInnerimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.profileFullC {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background: #212427;
+  height: 640px;
+  padding: 30px;
+}
+
+.AboutCard {
+  display: block;
+}
+
+.CardInnerContainer {
+  width: 100%;
+  background: #fff;
+  left: -10%;
+  right: 0;
+  border-radius: 2px;
+  padding: 30px;
+  height: 475px;
+}
+
+.CardInnerContainer .cardBody {
+  padding: 0px !important;
+  flex: 1 1 auto;
+}
+
+.title {
+  font-family: "Nunito Sans" !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 55px !important;
+  align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-top: 25px !important;
+}
+
+.subtitle {
+  font-family: "Nunito Sans" !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  font-size: 18px !important;
+  line-height: 27px !important;
+
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  color: #fff;
+}
+
+.tagText {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.tagTitle {
+  margin-bottom: 10px;
+}
+
+.tagTitle {
+  margin-right: 10px;
+  display: flex;
+}
+
+.artWork_cover {
+  margin: 60px 0;
+  position: sticky;
+  align-items: center;
+}
+
+.center {
+  text-align: center;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.ul {
+  text-align: center !important;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  padding: 10px;
+  border-bottom: 1px solid #b3b3b3;
+}
+
+.list {
+  text-align: center !important;
+  list-style-type: none;
+  font-size: 20px;
+  text-decoration: none;
+  align-items: center;
+  width: 15%;
+}
+
+.anchor {
+  color: #5b5b5b;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Nunito Sans" !important;
+}
+
+.anchor:hover {
+  font-size: 20px;
+  cursor: pointer;
+  color: #5b5b5b;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .subtitle {
+    font-size: 15px !important;
+    line-height: 20px !important;
+  }
+
+  .title {
+    font-size: 18px !important;
+    line-height: 20px !important;
+  }
+
+  .AboutCard {
+    width: 85%;
+    margin-left: 0px;
+  }
+  .imgContainer img{
+    height: 50%;
+  }
+  .CardInnerContainer{
+    height: 380px;
+  }
+  .center{
+    margin-top: 10px !important;
+  }
+  .heading1_black {
+    font-family: "Hill House" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 62px !important;
+    line-height: 62px !important;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #212427;
+    margin: 92px 0;
+  }
+  .ul {
+    display: grid;
+    justify-content: flex-start;
+    padding: 0;
+    margin-top: -10;
+
+  }
+
+  .list {
+    margin: 0 -10px !important;
+    padding: 10px !important;
+    font-size: 16px;
+
+
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 769px) {
+  .ul {
+    display: grid;
+    justify-content: flex-start;
+    padding: 0;
+    margin-top: -10;
+
+  }
+
+  .list {
+    margin: 0 -10px !important;
+    padding: 10px !important;
+    font-size: 16px;
+
+
+  }
+}
+
+.heading {
+  text-align: center;
+  font-size: 25;
+  color: #faa61a;
+  margin-top: 20px;
+}
+
+.otherArtWork {
+  position: relative;
+  z-index: 9;
+}
+
+.otherArtWorkBg {
+  position: absolute;
+  height: 350px;
+  background: #000;
+  width: 100%;
+  top: 0;
+}
+
+.featureArtWorkContainer {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  background: #f4f4f4;
+}
+
+/*  Hidden by Ashok
+.imgContainer {
+  height: 380px;
+  width: 560px;
+} 
+*/
+
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.cardCon {
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  overflow: hidden;
+}
+
+.cardBackImg {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  background-size: 100%;
+  border-radius: 5px;
+}
+
+.heading1 {
+  font-family: "Hill House" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 62px !important;
+  line-height: 62px !important;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #212427;
+  margin: 65px 0;
+}
+
+.heading2 {
+  font-family: "Hill House" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 40px !important;
+  line-height: 62px !important;
+  align-items: center !important;
+  text-align: center !important;
+  letter-spacing: 0.02em;
+  color: white;
+  margin: 15px 0 30px;
+  position: relative;
+  z-index: 99;
+  padding-top: 30px;
+}
+
+.cardArtContainer {
+  width: 100% !important;
+  margin: 0 auto !important;
+  position: relative;
+  z-index: 99;
+}
+
+.card_style {
+  width: 400;
+  background: #e0ddd7 !important;
+  height: 55vh;
+}
+
+.datatitle {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 27px !important;
+
+  color: #020826;
+
+  opacity: 0.8;
+}
+
+.artWork_cover {
+  width: 98%;
+  height: 60vh;
+}
+
+.typo1 {
+  font-family: "Nunito Sans" !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 44px !important;
+  color: #020826;
+  opacity: 0.8;
+  font-size: 32px !important;
+}
+
+.typo2 {
+  font-family: "Nunito Sans" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 27px !important;
+  opacity: 0.7 !important;
+
+  color: #212427;
+
+  opacity: 0.7;
+}
+
+.typo3 {
+  margin-top: 20px !important;
+  font-family: "Nunito Sans" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 23px !important;
+  color: #000000 !important;
+}
+
+.typo4 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 12px;
+  margin-left: 10px;
+  color: #000000;
+  padding: 5px !important;
+}
+
+.artWorkImg {
+  width: 100%;
+  display: block;
+  height: 475px;
+}
+
+.artWorkContentCon {
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.artWorkImg img {
+  width: 100%;
+  height: 93%;
+  object-fit: cover;
+}
+
+.artWorkContainer {
+  padding: 0 30px;
+}
+
+.artContentArea {
+  position: relative;
+}
+
+.artContentArea p {
+  margin-top: 10px;
+}
+
+/* Add by Ashok */
+.cardBackImg {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  background-size: 100%;
+  border-radius: 5px;
+  Display: none;
+}
+
+.about_cardTitle__1-iZN {
+  font-family: "Hill House" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 36px !important;
+  line-height: 36px !important;
+  margin-bottom: 34px;
+  letter-spacing: 0.02em;
+  color: #212427;
+  -webkit-transform: rotate(0.33deg);
+  transform: rotate(0.33deg);
+}
+
+.cardText {
+  margin-top: 0 !important;
+  margin-bottom: 0rem !important;
+  overflow: scroll !important;
+  height: 21vh !important;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.subtitle {
+  font-family: "Nunito Sans" !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  font-size: 26px;
+  line-height: 27px;
+
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  color: #fff;
+}
+
+.AboutCard {
+  display: block;
+  margin-left: 34px;
+}
+
+.readMore {
+  display: block;
+  color: #404240 !important;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 34px;
+  text-decoration: underline;
+}
+
+.tagTextTitle {
+  font-family: "Nunito Sans" !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  margin-top: 5px !important;
+  align-items: center !important;
+  letter-spacing: 0.02em !important;
+  color: #000000;
+  text-align: left;
+}
+
+.btn {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: #090606 !important;
+  background: #e5e5e5 !important;
+  padding: 8px 25px !important;
+  text-align: center;
+  border: none;
+  margin-left: 5px !important;
+  display: inline-block;
+  border-radius: 20px !important;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.btnConnect {
+  display: inline-block !important;
+  width: 140px;
+  margin-top: 20px !important;
+  border-radius: 30px !important;
+  background: #faa61a !important;
+  float: right;
+  margin-top: -10px !important;
+}
+
+.center {
+  text-align: center;
+  margin-top: 69px;
+  align-items: center;
+}
+
+.list {
+  text-align: center !important;
+  list-style-type: none;
+  font-size: 24px;
+  color: #212427;
+  font-weight: 400;
+  text-decoration: none;
+  align-items: center;
+  /* gap: 55px; */
+  width: 11%;
+}
+
+.ul {
+  text-align: center !important;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  padding: 15px;
+  border-bottom: 1px solid #696F79;
+  margin-bottom: 78px;
+}
+
+.heading1 {
+  font-family: "Hill House" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 62px !important;
+  line-height: 62px !important;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin: 92px 0;
+}
+
+.heading1_black {
+  font-family: "Hill House" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 62px !important;
+  line-height: 62px !important;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #212427;
+  margin: 92px 0;
+}

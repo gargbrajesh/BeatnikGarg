@@ -1,0 +1,22 @@
+[
+  {
+    "id": "Performer",
+    "name": "Performer"
+  },
+  {
+    "id": "Teacher",
+    "name": "Teacher"
+  },
+  {
+    "id": "Director",
+    "name": "Director"
+  },
+  {
+    "id": "Manager",
+    "name": "Manager"
+  },
+  {
+    "id": "Backstage",
+    "name": "Backstage"
+  }
+]

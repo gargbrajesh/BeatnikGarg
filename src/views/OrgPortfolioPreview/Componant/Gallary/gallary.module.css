@@ -1,0 +1,32 @@
+.heading {
+    font-family: 'Hill House';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 65px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: white;
+}
+
+.artWork_cover {
+    width: 96%;
+    height: auto;
+    margin-top: 5% !important;
+    border: 2px solid blueviolet;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 20px !important;
+    background: black;
+   
+}
+
+.float_container {
+    border: 3px solid #fff;
+    padding: 20px;
+
+}
+

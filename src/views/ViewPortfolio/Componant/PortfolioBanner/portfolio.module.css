@@ -1,0 +1,40 @@
+.typo_design {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 65px;
+    letter-spacing: 0.02em;
+    top: 174px;
+    color: #000000;
+   
+}
+.content_container{
+    padding: 20px;
+    width: 40%;
+   border: 2px solid black;
+   text-align: center;
+   align-items: center;
+}
+.btn_container{
+    display: flex;
+    border: 2px solid black;
+    width: 50%;
+    align-items: center;
+}
+.innerContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+@media screen and (max-width: 400px) {
+    .innerContainer {
+        margin-top: 10px;
+    }
+}
+
+@media  (min-width: 410px) and  (max-width: 600px) {
+    .innerContainer {
+        margin-top: 10px;
+    }
+}
